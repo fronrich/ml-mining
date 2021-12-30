@@ -1,0 +1,755 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Objects-1/info.htm-->
+<html lang="en">
+
+<head>
+    <title>Blanton Museum of Art - Untitled (monkey), from Pequeno bestiario brasileiro [Small Brazilian Bestiary]</title>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/kioskstyles.css"/>
+
+        <!-- start scripts -->
+	<link rel="icon" href="/graphics/favicon.ico" type="image/x-ico" />
+
+    <!-- inserts JavaScript at the top of every page -->
+    <!-- <script type="text/javascript" src="/scripts/jquery-3.1.0.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/highslide/highslide-full.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/scripts/highslide/highslide.css" />
+    <script type="text/javascript" src="/scripts/highslideinit.js"></script>
+	<script type="text/javascript" src="/scripts/filterbox.js"></script>
+	<script type="text/javascript" src="/scripts/myscript.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31531035-1"></script>
+	<script type="text/javascript" src="/scripts/ga_tags.js"></script>
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<link id="bsdp-css" href="/scripts/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+	<script src="/scripts/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <script type="text/javascript">
+		function getGallerySystemsCookie(name) {
+			var value = "; " + document.cookie;
+			var parts = value.split("; GSWK_" + name + "=");
+			if (parts.length >= 2) {
+				return parts.pop().split(";").shift();
+			} else {
+				return "";
+			}
+		}
+
+		// console.log(jQuery);
+        function getStyleObj (obj) {
+            // returns a 'style' object that's properly formatted for the user's browser
+            if(is.ns5) {
+                styleObj = document.getElementById(obj).style;
+            }
+            else if(is.ie) {
+                styleObj = eval("document.all." + obj + ".style");
+            }
+            else if(is.ns) {
+                styleObj = eval("document." + obj);
+            }
+
+            return styleObj;
+        }
+
+        function menuOn(selMenu) {
+            // // Change the background color of selMenu on mouse rollover.
+            // var obj = getStyleObj(selMenu);
+            // obj.backgroundColor ="#000";
+            // //this color corresponds to the .menu a:hover bgcolor set in kioskstyles.css
+        }
+
+        function menuOff(selMenu) {
+            // // Remove the background color of selMenu on mouse rollout.
+            // if(currentMenu == selMenu) {
+            //     // this is the 'current' menu; it should continue to look selected;
+            //     setMenu(selMenu);
+            // } else {
+            //     var obj = getStyleObj(selMenu);
+            //     obj.backgroundColor ="";
+            // }
+        }
+
+        var currentMenu = "";
+
+        function setMenu(selMenu) {
+            // // Changes the background color of the selected menu
+            // // This function is called in the 'onload' script of <body> tags.
+            // currentMenu = selMenu;
+            // var obj = getStyleObj(selMenu);
+            // obj.backgroundColor ="#666666";
+        }
+
+        function showHelp(theURL) {
+            theURL = '/Help/'+theURL+'.htm';
+            var newWindow = window.open(theURL,'Help','width=300,height=400,scrollbars,resizable');
+        }
+
+        function addToPort(SessionID,Sequence,objID) {
+            document.theForm.objID.value = objID;
+            suffix = "?sid="+SessionID + "&x=" + Sequence;
+            var portWind = window.open("/Kiosk/ChoosePort.htm"+suffix,"ChoosePort","height=150,width=300")
+        }
+
+        function addIDs() {
+            document.theForm.action = document.theForm.action+document.theForm.portID.value+"*"+document.theForm.objID.value+suffix;
+            document.theForm.submit();
+        }
+
+      $(document).ready( function() {
+        $( "#accordion" ).accordion({
+          collapsible: true,
+          header: '.other-info',
+          heightStyle: "content",
+          active: false
+        });
+      } );
+
+    </script>
+    <!-- end scripts -->
+
+
+    <script type="text/javascript">
+        function submitPop(page, SessionID) {
+            self.document.forms["popup"].action = "/OBJ" + "?sid=" + SessionID + "&rec=" + (page + 1);
+            self.document.forms["popup"].submit();
+        }
+
+        function goFullscreen(id) {
+            var element = document.getElementById(id);
+            if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            }
+        }
+    </script>
+    <script type="text/javascript" src="/scripts/html5media.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="/scripts/gmaps/gmaps.js"></script>
+    <script type="text/javascript" src="/scripts/gmaps/prettify.js"></script>
+
+    <!-- mediaelement -->
+    <!-- <script src="http://mediaelementjs.com/js/mejs-2.21.0/mediaelement-and-player.min.js"></script> -->
+    <!-- <link   href="http://mediaelementjs.com/js/mejs-2.21.0/mediaelementplayer.min.css" rel="Stylesheet" /> -->
+    <!-- <link   href="http://mediaelementjs.com/js/mejs-2.21.0/mejs-skins.css" rel="stylesheet" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.21.0/mediaelement-and-player.min.js"></script>
+    <link   href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.21.0/mediaelementplayer.min.css" rel="Stylesheet" />
+    <link   href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.21.0/mejs-skins.min.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        var map;
+        var Lat = 'LAA7 - Conceptualism and Contemporary (A5D) -- case';
+        var Lon = '';
+
+        $(document).ready(function() {
+            prettyPrint();
+            map = new GMaps({
+                div: '#map',
+                zoom: 5,
+                lat: Lat,
+                lng: Lon
+            });
+            map.addMarker({
+                lat: Lat,
+                lng: Lon,
+                title: '',
+                details: {
+                    database_id: 42,
+                    author: 'HPNeo'
+                },
+                click: function(e) {
+                    if (console.log)
+                        console.log(e);
+                    alert('You clicked in this marker');
+                }
+            });
+            map.addMarker({
+                lat: Lat,
+                lng: Lon,
+                title: 'Marker with InfoWindow',
+                infoWindow: {
+                    content: '<p> </p>'
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="clearfix">
+    <a class="skippy sr-only sr-only-focusable" role="navigation" aria-label="Skip links" href="#main">
+    Skip to Content
+</a>
+
+<header class="navbar navbar-expand-md navbar-light bg-light mb-3">
+    <a class="navbar-brand mr-auto" href="https://blantonmuseum.org/" target=_blank>
+       <div class="logo" style="display:inline;"></div>
+    </a>
+
+    <ul class="navbar-nav mt-2 mt-lg-0 px-2">
+        <li class="nav-item px-2">
+            <a class="nav-link" href="/">Home</a>
+        </li>
+
+        <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Browse
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/index-tree/tree/181?records=12">Collections</a>
+				
+                    <a class="dropdown-item" href="/objects-1/portfolio?records=12&query=currentLocation%20%3D%20%22%40gallery%40%22%20or%20currentLocation%20%3D%20%22%40atrium%40%22%20or%20currentLocation%20%3D%20%22%40foyer%40%22%20or%20currentLocation%20%3D%20%22%40seminar%20room%40%22&sort=9">On View</a>
+		
+                
+                
+                
+                
+                    <a class="dropdown-item" href="/kiosk/BrowseArtist.htm">Artists</a>
+                
+                <a class="dropdown-item" href="/kiosk/BrowseGeography.htm">Geography</a>
+                
+            </div>
+        </li>
+
+        <li class="nav-item px-2">
+            <a class="nav-link" href="/kiosk/search.htm">Search</a>
+        </li>
+
+        <li class="nav-item px-2">
+            <a class="nav-link" href="../kiosk/help.htm" target="_blank">Help</a>
+        </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0" role="search" action="/4DACTION/HANDLECGI/Search" method="post">
+        <input type="hidden" name="SearchField4" value="mfs"/>
+        <input type="hidden" name="SearchOp4" value="all"/><!-- change back to "any" instead of "all" to get more results-->
+        <input type="hidden" name="SearchTable" value="Objects_1"/>
+        <input type="hidden" name="display" value="portfolio"/>
+        <input type="hidden" name="records" value="10"/>
+
+        <div style="max-width:270px;">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Search the Collection" size="35" name="SearchValue4" value=""/>
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-primary" aria-label="Search Collection" name="doSubmit">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        Search
+                    </button>
+                </span>
+            </div>
+        </div>
+    </form>
+
+    
+        <ul class="navbar-nav mt-2 mt-lg-0 px-2">
+            <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    
+                        <i class="fa fa-user-circle fa-lg" style="color:darkgray; font-size:2.5em;"></i>
+                    
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    
+                        <a class="dropdown-item" href="/ULOG">Log on</a>
+                    
+                </div>
+            </li>
+        </ul>
+    
+</header>
+
+
+    <div class="container">
+        <h2>Object Results</h2>
+
+        <div class="row">
+            <div class="col col-sm col-md-5 col-lg-4 col-xl-4 mr-auto">
+                <form id='popup' name='popup' method='get' action='/objects-1/info?query=mfs%20all%20%221983.112.1/10%20Untitled%20(monkey),%20from%20Pequeno%20bestiario%20brasileiro%20[Small%20Brazilian%20Bestiary]%20Brentani,%20Gerda%22&sort=9' style="text-align:center;">
+                    <input type='hidden' name='query' id='query' value='mfs all "1983.112.1/10 Untitled (monkey), from Pequeno bestiario brasileiro [Small Brazilian Bestiary] Brentani, Gerda"' />
+                    <select class="form-control" name='page' title='page' id='page' onchange='document.forms["popup"].submit()'>
+                          <!-- loads the first record -->
+                        
+                            <option value='1'  selected='selected' >
+                                Untitled (monkey), from Pequeno bestiario brasileiro [Small Brazilian Bestiary] - Gerda Brentani
+                            </option>
+                        
+                    </select>
+                </form>
+            </div>
+
+              <!-- reloads the record -->
+
+            <div class="col col-sm col-md-4 col-lg-4 col-xl-4"> <!-- display options -->
+                <div class="display-options" style="display:inline;">
+                    <div claass="navtxt">
+                        <a class="btn btn-default" href="/objects-1/thumbnails?records=20&query=mfs%20all%20%221983.112.1/10%20Untitled%20(monkey),%20from%20Pequeno%20bestiario%20brasileiro%20[Small%20Brazilian%20Bestiary]%20Brentani,%20Gerda%22&sort=9" aria-label="Go to Thumbnails view">
+                            <i class="fa fa-th" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div claass="navtxt">
+                        <a class="btn btn-default" href="/objects-1/portfolio?records=12&query=mfs%20all%20%221983.112.1/10%20Untitled%20(monkey),%20from%20Pequeno%20bestiario%20brasileiro%20[Small%20Brazilian%20Bestiary]%20Brentani,%20Gerda%22&sort=9" aria-label="Go to Portfolio view">
+                            <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div claass="navtxt">
+                        <a class="btn btn-default" href="/objects-1/list?records=25&query=mfs%20all%20%221983.112.1/10%20Untitled%20(monkey),%20from%20Pequeno%20bestiario%20brasileiro%20[Small%20Brazilian%20Bestiary]%20Brentani,%20Gerda%22&sort=9" aria-label="Stay on list view">
+                            <i class="fa fa-th-list"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- start pagenavigation -->
+
+<!-- draws next/previous links at the top of every page that has a record selection -->
+
+<style>
+    .pager {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .pager li > span.textOnly {
+      display: inline-block;
+      padding: 5px 14px;
+      background-color: #fff;
+      border: 0;
+    }
+</style>
+
+<table width=100% class="mt-2">
+    <tr>
+        <td>
+            
+                <button type="button" class="btn btn-outline-secondary" disabled>
+                    <span class="fa fa-step-backward" aria-hidden="true"></span>
+                    First
+                </button>
+                <button type="button" class="btn btn-outline-secondary" disabled>
+                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                    Previous
+                </button>
+            
+        </td>
+        <td class="text-center">
+            
+        		Showing 1 of 1
+        	
+        </td>
+        <td>
+            <div class="float-right">
+                
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Next
+                        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" disabled>
+                        Last
+                        <span class="fa fa-step-forward" aria-hidden="true"></span>
+                    </button>
+                
+            </div>
+        </td>
+    </tr>
+</table>
+
+<p class="err"></p>
+
+<!-- end pagenavigation -->
+
+    </div>
+
+    <hr/>
+
+    <div style="position: relative;">
+        <!--
+Displays a filter box for search results.
+
+Relies on the ability to filter the current selection, so using the BACK button
+   in the browser will break things.
+-->
+
+<style>
+	#filterBox {
+		background-color: #555;
+		padding: 4px;
+		border: 0;
+		display: block;
+
+		width: 35px;
+		height: 200px;
+
+		position: absolute;
+		right: 0; top: 0;
+		z-index: 10;
+		cursor: pointer;
+	}
+
+	#filterBox:hover {
+		background-color: transparent;
+		width: 250px;
+		background-color: none;
+	}
+	#filterBox #title {
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+		transform: rotate(90deg);
+	}
+	#filterBox:hover #title {
+		padding: 3px;
+		background-color: #555;
+		font-size: 14px;
+		transform:  rotate(0deg);
+	}
+
+</style>
+
+
+<div id="filterBox">
+	<div id="title">
+		<!-- <img id="triangle" src="/graphics/carat-right.jpg"/>&nbsp; -->
+		&nbsp;&nbsp;FILTER&nbsp;RESULTS
+	</div>
+
+	<div id="filterFields">
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+
+	</div>
+</div>
+
+
+
+        <div class="container">
+            <a name="main"></a>
+
+            <div class="text-right">
+                <a class="btn btn-default" onclick="window.print();return false;" href="#">
+                    <i class="fa fa-print"></i> Print this page
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 cols-xs-12 text-center">
+                    
+                        <p>
+                            <em>This object does not have an image.</em>
+                        </p>
+                    
+
+
+<br><br>
+<div>
+           
+		    
+            
+
+</div>
+                              
+
+
+                    <!-- Zoomify HTML5 link. You must use the Zoomify utility available at http://www.zoomify.com to convert your high-res files to Zoomify format. -->
+                    <!-- Save ZoomifyImageViewer-min.js to the webfolder/scripts directory. Purchase file at http://www.zoomify.com -->
+
+
+                    
+                        <p>
+                            <a class="btn btn-default small" href="/objects-1/zoomobject5?query=mfs%20all%20%221983.112.1/10%20Untitled%20(monkey),%20from%20Pequeno%20bestiario%20brasileiro%20[Small%20Brazilian%20Bestiary]%20Brentani,%20Gerda%22&sort=9" aria-label="View Zoomify Image">
+                                View <br/> Zoomable Image
+                            </a>
+                        </p>
+                    
+
+
+                </div>
+
+                <div class="col">
+                    <h4>
+                        Untitled (monkey), from Pequeno bestiario brasileiro [Small Brazilian Bestiary]
+                    </h4>
+
+                    
+                        1979<br/>
+                    
+                    
+                        20th century<br/>
+                    
+                    
+                        18 cm x 15.5 cm (7 1/16 in. x 6 1/8 in.)<br/>
+                    
+
+                    <br/>
+
+                    
+                    
+                        
+                            
+                            <a href="/artist-maker/info/40">
+                                Editora Cesar
+                            </a>
+                            
+                            
+                                <em>
+                                    Publisher
+                                </em>
+                            
+                            <br/>
+                        
+                            
+                            <a href="/artist-maker/info/4420">
+                                Gerda Brentani
+                            </a>
+                            
+                                (Trieste, Italy, 1908 – 1999, Sao Paulo, Brazil)
+                            
+                            
+                                <em>
+                                    Primary
+                                </em>
+                            
+                            <br/>
+                        
+                    
+                    <br/>
+
+
+                    
+                        <div>
+                            <strong>Object Type:</strong>
+                            print
+                        </div>
+                    
+
+                    
+                        <div>
+                            <strong>Artist Nationality:</strong>
+                            Latin America, Brazilian
+                        </div>
+                    
+
+                    
+                        <div>
+                            <strong>Medium and Support:</strong>
+                            Etching
+                        </div>
+                    
+
+                    
+                        <div>
+                            <strong>Credit Line:</strong>
+                            Blanton Museum of Art, The University of Texas at Austin, Gift of Barbara Duncan, 1983
+                        </div>
+                    
+
+					
+            			<div>
+              				<strong>Accession Number:</strong>
+              				1983.112.1/10
+            			</div>
+          			
+
+ 					
+
+                    
+
+			</div>
+            </div>
+
+            
+            
+
+            
+            
+                <p>
+                    <div class="p-1 border-bottom bg-light mt-4">
+                        <span class="lead"> Keywords</span>
+                        <em class="small text-muted">
+                            Click a term to view the records with the same keyword
+                        </em>
+                    </div>
+                    <div class="row">
+                        
+                            <div class="col">
+                                <a class="text-nowrap" href="/objects-1/thumbnails?records=20&query=keywordPath=I">
+                                    animal
+                                </a>
+                                
+                            </div>
+                        
+                            <div class="col">
+                                <a class="text-nowrap" href="/objects-1/thumbnails?records=20&query=keywordPath=I:EX:CZ">
+                                    monkey
+                                </a>
+                                
+                            </div>
+                        
+                    </div>
+                </p>
+            
+			
+			
+            
+            
+
+            
+            
+
+			
+
+			
+
+            
+            
+            
+
+            
+            
+
+              <!-- store our current record ID -->
+            
+
+            
+
+            
+
+
+            
+            
+            
+            
+                <p>
+                    <div class="p-1 border-bottom bg-light mt-4">
+                        <span class="lead">Portfolio List</span>
+                        <em class="small text-muted">
+                            Click a portfolio name to view all the objects in that portfolio
+                        </em>
+                    </div>
+                    This object is a member of the following portfolios:
+                    <div class="d-flex flex-wrap align-self-start">
+                        
+                            <div class="m-4">
+                                <a href="/objects-1/portfolio?records&#61;12&amp;query&#61;Portfolios&#37;20&#37;3D&#37;20&#37;221465&#37;22&amp;sort&#61;9">
+                                    <img src="/graphics/blank.gif"
+                                          height=""
+                                          width=""
+                                          alt="Thumbnail image of Now on View - Modern &amp; Contemporary Latin American Art">
+                                    <br/>
+                                    Now on View - Modern &amp; Contemporary Latin American Art
+                                </a>
+                            </div>
+                        
+                    </div>
+                </p>
+            
+
+        </div>
+    </div>
+
+    <!-- <div id="clearDiv"></div> -->
+
+    <div class="container">
+        <hr/>
+<p>
+    <em>
+        Your current search criteria is: Quick Search has 1983.112.1/10, Untitled, monkey, Pequeno, bestiario, brasileiro, Small, Brazilian, Bestiary, Brentani and Gerda.
+    </em>
+</p>
+
+        
+View current selection of records as:
+<div class="btn-group" role="group" aria-label="...">
+  <a href="/results.html?&layout=cdwa&format=xml&maximumrecords=-1&recordType=objects_1&query=mfs&#37;20all&#37;20&#37;221983.112.1/10&#37;20Untitled&#37;20(monkey),&#37;20from&#37;20Pequeno&#37;20bestiario&#37;20brasileiro&#37;20[Small&#37;20Brazilian&#37;20Bestiary]&#37;20Brentani,&#37;20Gerda&#37;22"
+      target="_blank" class="btn btn-outline-secondary">
+      CDWA Lite XML
+  </a>
+  <a href="/results.html?&layout=lido&format=xml&maximumrecords=-1&recordType=objects_1&query=mfs&#37;20all&#37;20&#37;221983.112.1/10&#37;20Untitled&#37;20(monkey),&#37;20from&#37;20Pequeno&#37;20bestiario&#37;20brasileiro&#37;20[Small&#37;20Brazilian&#37;20Bestiary]&#37;20Brentani,&#37;20Gerda&#37;22"
+      target="_blank" class="btn btn-outline-secondary">
+      LIDO XML
+  </a>
+  <a href="/results.html?&layout=vracore4&format=xml&maximumrecords=-1&recordType=objects_1&query=mfs&#37;20all&#37;20&#37;221983.112.1/10&#37;20Untitled&#37;20(monkey),&#37;20from&#37;20Pequeno&#37;20bestiario&#37;20brasileiro&#37;20[Small&#37;20Brazilian&#37;20Bestiary]&#37;20Brentani,&#37;20Gerda&#37;22"
+      target="_blank" class="btn btn-outline-secondary">
+      VRA Core 4
+  </a>
+  <a href="/results.html?&layout=mods&format=xml&maximumrecords=-1&recordType=objects_1&query=mfs&#37;20all&#37;20&#37;221983.112.1/10&#37;20Untitled&#37;20(monkey),&#37;20from&#37;20Pequeno&#37;20bestiario&#37;20brasileiro&#37;20[Small&#37;20Brazilian&#37;20Bestiary]&#37;20Brentani,&#37;20Gerda&#37;22"
+      target="_blank" class="btn btn-outline-secondary">
+      MODS XML
+  </a>
+  <a href="/results.html?&layout=objects&format=json&maximumrecords=-1&recordType=objects_1&query=mfs&#37;20all&#37;20&#37;221983.112.1/10&#37;20Untitled&#37;20(monkey),&#37;20from&#37;20Pequeno&#37;20bestiario&#37;20brasileiro&#37;20[Small&#37;20Brazilian&#37;20Bestiary]&#37;20Brentani,&#37;20Gerda&#37;22"
+      target="_blank" class="btn btn-outline-secondary">
+      Objects JSON
+  </a>
+</div>
+
+
+        <br>
+        <form id="theForm" name="theForm" action="/UAdd" method="get">
+    <input type="hidden" value="1" name="portID"/>
+    <input type="hidden" value="" name="objID"/>
+    <input type="hidden" value="" name="name"/>
+    <input type="hidden" value="" name="sid"/>
+</form>
+        <br>
+        <br>
+
+        
+
+
+    </div>
+
+          <div class="container">    <br /><br /><br/ ><br /><p><a href="http://www.utexas.edu/web-privacy-policy">Web Privacy Policy</a> |
+<a href="http://www.utexas.edu/web-accessibility-policy">Web Accessibility Policy</a></p>
+            </div>
+        </td>
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<nav class="small navbar fixed-bottom navbar-light bg-light" style="height:35px;">
+    <p class="navbar-text mr-auto" style="height:20px;">
+        <a href="#top" id="to-top-button" title="Return to Top">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            Go to Top
+        </a>
+    </p>
+    
+    <p class="navbar-text" style="height:20px;">
+        Last updated: 11/13/2020
+    </p>
+</div>
+
+</body>
+
+</html>

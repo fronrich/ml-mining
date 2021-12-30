@@ -1,0 +1,6 @@
+jupyter
+pandas
+mlxtend
+itertools
+collections
+time
